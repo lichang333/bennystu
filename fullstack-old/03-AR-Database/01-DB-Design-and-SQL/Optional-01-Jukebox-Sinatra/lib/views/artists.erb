@@ -1,0 +1,6 @@
+<h2>Albums</h2>
+<% @albums.each_with_index do |album, i| %>
+<h4><%= "#{i+1}."%>
+<a href=
+<%="/albums/#{album[1]}"%>><%="#{album[0]}" %></a></h4>
+<% end %>

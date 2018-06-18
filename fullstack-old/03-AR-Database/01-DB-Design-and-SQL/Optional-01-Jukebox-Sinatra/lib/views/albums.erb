@@ -1,0 +1,6 @@
+<h2>Albums</h2>
+<% @tracks.each_with_index do |track, i| %>
+<h4><%= "#{i+1}."%>
+<a href=
+<%="/tracks/#{track[1]}"%>><%="#{track[0]}" %></a></h4>
+<% end %>

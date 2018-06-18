@@ -1,0 +1,6 @@
+<h2>Artists</h2>
+<% @my_artists.each_with_index do |artist, i| %>
+<h4><%= "#{i+1}."%>
+<a href=
+<%="/artists/#{artist[1]}"%>><%="#{artist[0]}" %></a></h4>
+<% end %>
